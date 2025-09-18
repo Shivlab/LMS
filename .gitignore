@@ -6,19 +6,7 @@
 # ./HomeLoanDemo.class
 # Java class files and compiled artifacts
 *.class
-./target
-./src
-
 # Standalone Java files (old loan calculator implementation)
-BPIDemo.java
-FloatingRateEMI.java
-HomeLoanDemo.java
-HomeLoanTestRunner.java
-LoanCalculator.java
-LoanInput.java
-LoanOutput.java
-LoanTestCases.java
-LoanTestRunner.java
 
 # Documentation files
 COMPREHENSIVE_PROJECT_DOCUMENTATION.md
@@ -30,10 +18,6 @@ database.md
 kiro.md
 
 # SQL files
-cleanup_duplicate_snapshots.sql
-fix_numeric_precision.sql
-init-db.sql
-init-versioning-db.sql
 
 # Shell scripts
 rebuild-backend.sh
@@ -42,14 +26,13 @@ test_junit.sh
 test_kfs_versioning.sh
 
 # Maven files (for standalone project)
-./pom.xml
+
 
 # Text files and outputs
 output.txt
 sample_input.txt
 
 # Docker compose (if not needed for LMS)
-docker-compose.yml
 
 # IDE settings
 .vscode/
