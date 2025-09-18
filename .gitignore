@@ -6,8 +6,8 @@
 # ./HomeLoanDemo.class
 # Java class files and compiled artifacts
 *.class
-target/
-src/
+./target
+./src
 
 # Standalone Java files (old loan calculator implementation)
 BPIDemo.java
@@ -42,7 +42,7 @@ test_junit.sh
 test_kfs_versioning.sh
 
 # Maven files (for standalone project)
-pom.xml
+./pom.xml
 
 # Text files and outputs
 output.txt
